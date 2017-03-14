@@ -1,0 +1,79 @@
+Windows 7 (currently)
+=====================
+but something is caused by win10 setup, too
+
+
+initial tips:
+- set English as primarily
+- set short name: long names will be autoshorted (at least in Win10)
+
+
+Utils
+=====
+
+| Type        | Name                   | Description                                 | Link                           |
+|-------------|------------------------|---------------------------------------------|--------------------------------|
+| notepad     | Notepad++              | Really useful notepad for all file types    | https://notepad-plus-plus.org/ |
+| disk usage  | WinDirStat             | Disk usage statistics viewer                | https://windirstat.net/ |
+| path editor | WindowsPathEditor      | editor for PATH environment variable        | https://rix0rrr.github.io/WindowsPathEditor/ |
+|             | RapidEnvironmentEditor | more complex editor for all env variables   | https://www.rapidee.com |
+| cmake       | CMake gui              | GUI makes cmake much more user-friendly     | https://cmake.org/download/ |
+| git         | Git for Windows        |                                             | https://git-for-windows.github.io/ |
+|             | Github Desktop         |                                             | https://desktop.github.com/ |
+| archiver    | WinRAR                 |                                             | http://www.win-rar.com/ |
+|             | 7Zip                   |                                             | http://www.7-zip.org/ |
+| system info         | Speccy          | Get you a lot of information about your hardware       | https://www.piriform.com/speccy |
+| process explorer    | ProcessExplorer | A bit more advanced tool than standard Task manager    | https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx |
+| dependency explorer | depends         | Show you all dependencies of your dll file | http://www.dependencywalker.com/ |
+
+However very useful will be (as usually) check corresponding Awesome lists:
+https://github.com/Awesome-Windows/Awesome
+
+Consoles
+======== 
+|       |                                                                                   |                         |
+|-------|-----------------------------------------------------------------------------------|-------------------------|
+| babun | wrapper over Cygwin and zsh that brings your oh-my-zsh experience here to Windows | http://babun.github.io/ |
+| Far2  | much more than file manager :)                                                    | http://www.farmanager.com/download.php |
+
+Specific tools
+==============
+|             |             |                                       |                        |
+|-------------|-------------|---------------------------------------|------------------------|
+| merge tool  | Meld        | merge tool with nice GUI              | http://meldmerge.org/  |
+| exif reader | ExifToolGUI | parse exif files                      | http://u88.n24.queensu.ca/~bogdan/ |
+| health care | EyeLeo      | keep your eyes healthy (and mind too) | http://eyeleo.com/ |
+| ply viewer  | MeshLab     | view files with 3D models in ply and other formats | http://www.meshlab.net/ |
+
+Compilers
+=========
+- MSVC (and vcvarsall)
+- MinGW
+
+IDE
+===
+|                         |          |                                     |
+|-------------------------|----------|-------------------------------------|
+| Microsoft Visual Studio | C/C++/C# |  https://www.visualstudio.com/vs/   |
+| JetBrains CLion         | C/C++    |                                     |
+| JetBrains PyCharm       | Python   |                                     |
+
+Profiling 
+=============
+- VLD : Visual Leak Detector (https://vld.codeplex.com/)
+- Dr. Memory
+- Intel VTune Amplifier
+
+Libs
+====
+- opencv
+- eigen
+- boost
+- caffe
+- cuda
+- cudnn
+
+Video codecs
+============
+- K-Lite Codecs
+- VLC
