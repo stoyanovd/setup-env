@@ -1,0 +1,161 @@
+# To pass -y to all installs
+choco feature enable --name=allowGlobalConfirmation
+
+
+######################
+# Windows features
+######################
+
+# Hyper-V
+# Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V –All
+choco install Microsoft-Hyper-V --source windowsfeatures
+
+# Windows Subsystem for Linux
+# Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+choco install Microsoft-Windows-Subsystem-Linux --source windowsfeatures
+
+
+######################
+# Explorer settings
+######################
+
+# you want to pass it to boxstarter...
+choco install boxstarter
+Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+
+
+######################
+# Utils
+######################
+
+# Notepad
+choco install notepadplusplus.install
+
+# Disk usage
+choco install windirstat
+
+# no WindowsPathEditor
+
+# RapidEnvironmentEditor
+choco install rapidee
+
+# CMake GUI
+choco install cmake
+
+# git (probably I will use one from babun)
+# choco install git
+# not use GitHub Desktop on the moment
+# choco install github
+
+# Archivers
+choco install winrar
+choco install 7zip
+
+# system info
+choco install speccy
+
+# Process Explorers. Will use ProcessHacker at the moment
+# choco install sysinternals
+choco install processhacker
+
+# Dependency walker
+choco install dependencywalker
+
+
+######################
+# Consoles
+######################
+
+# Strangely, it fails tests on chocolately (package size differs from proper)
+# maybe you want go with Bash on Windows? =)
+# choco install babun
+
+choco install far
+
+
+######################
+# Specific tools
+######################
+
+choco install meld
+choco install exiftoolgui
+
+# EyeLeo not exists
+
+# [Warning] it is not approved on choco
+choco install meshlab
+
+
+######################
+# Compilers and IDE
+######################
+
+# Visual Studio
+# visualstudio2015professional
+# visualstudio2015enterprise
+# visualstudio2015community
+# vcredist2015
+# dotnet4.5
+
+# MinGW
+choco install mingw
+
+# JetBrains
+# but I didn't find anything about jetbrainstoolbox console using =(
+# you may want to look into SikuliX (also available in choco)
+# to automate GUI app
+choco install jetbrainstoolbox
+
+# By the way, there are such packs as clion-ide, but they are outdated.
+
+# choco install tbb
+
+# Java
+choco install javaruntime
+
+######################
+# Profiling
+######################
+
+# visualleakdetector exists, but test failed
+# drmemory (but I haven't used it)
+# Intel VTune Amplifier - not find
+
+
+######################
+# Virtualization
+######################
+
+choco install virtualbox
+
+# Docker client
+choco install docker
+# Docker container engine
+choco install docker-for-windows
+
+# I will not install it by default
+# choco install vagrant
+
+
+######################
+# Video codecs and players
+######################
+
+choco install vlc
+choco install k-litecodecpackmega
+# only in SMPlayer I find frame-by-frame playing
+choco install smplayer
+
+# Maybe you need audio codecs? Don't know what is included in empty sistem.
+# choco install realtek-hd-audio-driver
+
+
+######################
+# Libs
+######################
+
+# There are only OpenCV here
+# But I think you don't want any of this libs to be installed such way,
+# I think, you should build it by yourself
+
+
