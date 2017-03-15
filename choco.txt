@@ -25,6 +25,18 @@ Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFil
 
 
 ######################
+# Nvidia
+######################
+
+# Manager
+choco install geforce-experience
+
+# or drivers manually
+# geforce-game-ready-driver-win10
+# geforce-game-ready-driver
+
+
+######################
 # Utils
 ######################
 
@@ -171,4 +183,28 @@ choco install smplayer
 # But I think you don't want any of this libs to be installed such way,
 # I think, you should build it by yourself
 
+
+######################
+# Antivirus
+######################
+
+# Kaspersky Virus Removal Tool
+# --ignore-checksums (link to newest version, but fixed checksum)
+choco install kvrt
+
+# other Kaspersky editions exists, but are not free (30 days trial)
+
+# Avast Free Antivirus 
+choco install avastfreeantivirus
+
+
+######################
+# User space
+######################
+
+# Download manager
+choco install freedownloadmanager
+
+# Sth for VPN, amybe OpenVPN, if you use it
+# (currently I'm use NordVPN)
 

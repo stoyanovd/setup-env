@@ -114,3 +114,16 @@ Video codecs
 - K-Lite Codecs
 - VLC
 - realtek-hd-audio-driver ?
+
+
+Antivirus
+=========
+maybe it will be suitable to install it more early
+- Kaspersky Virus Removal Tool 
+- Avast
+- other Kaspersky editions are not free
+
+
+User space
+============
+- Free Download Manager [link](http://www.freedownloadmanager.org/)
