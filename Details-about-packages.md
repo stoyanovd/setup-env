@@ -12,15 +12,15 @@ Let's decide, will you use Bash on Windows or babun (cygwin).
 
 I will go with chocolately and Win10.
 
-=====================
-Packages
-=====================
+
+=========  Packages =========
+=============================
 
 Utils
 =====
-- + for using in my choco script
-- e for existing but not using
-- - for not existing
+- `+` for using in my choco script
+- `e` for existing but not using
+- `-` for not existing
 
 |choco| Type        | Name                   | Description                                 | Link                           |
 |-----|-------------|------------------------|---------------------------------------------|--------------------------------|
