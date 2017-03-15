@@ -134,7 +134,7 @@ choco install docker
 choco install docker-for-windows
 
 # I will not install it by default
-# choco install vagrant
+choco install vagrant
 
 
 ######################

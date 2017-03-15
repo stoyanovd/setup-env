@@ -87,12 +87,22 @@ Virtualization
 
 Libs
 ====
+Build yourself
 - opencv
+
+Let's give it to [hunter](https://github.com/ruslo/hunter):
 - eigen
-- boost
+- gflags 
+- glog
+- gtest
+- boost packages
+- (opencv also may be comfortable with use through hunter)
+
+Don't need now, so leave it to future
 - caffe
 - cuda
-- cudnn
+- cudnn  
+
 
 Windows feature ?
 =================
