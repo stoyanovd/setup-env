@@ -113,6 +113,19 @@ choco install jetbrainstoolbox
 # Java
 choco install javaruntime
 
+# Python
+choco install python
+
+# Ananconda or miniconda
+# I think, it will be useful to have Ananconda installed
+# cause initial installation usually is made with nice internet
+# and free time. Assume, you have such free disk-space.
+# But stop. Do you remember amount of non-python things that 
+# are installed though anaconda? It overrides previous pros.
+# choco install anaconda3
+# choco install anaconda2
+choco install miniconda3
+
 ######################
 # Profiling
 ######################

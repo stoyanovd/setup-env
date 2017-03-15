@@ -99,7 +99,7 @@ Let's give it to [hunter](https://github.com/ruslo/hunter):
 - (opencv also may be comfortable with use through hunter)
 
 Don't need now, so leave it to future
-- caffe
+- caffe (maybe mini-caffe for Windows use?)
 - cuda
 - cudnn  
 
