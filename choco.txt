@@ -7,7 +7,7 @@ choco feature enable --name=allowGlobalConfirmation
 ######################
 
 # Hyper-V
-# Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V –All
+# Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V â€“All
 choco install Microsoft-Hyper-V --source windowsfeatures
 
 # Windows Subsystem for Linux
@@ -117,6 +117,10 @@ choco install mingw
 # you may want to look into SikuliX (also available in choco)
 # to automate GUI app
 choco install jetbrainstoolbox
+
+# jetbrains plugins
+# - .ignore
+# - cppcheck
 
 # By the way, there are such packs as clion-ide, but they are outdated.
 
