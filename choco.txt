@@ -3,20 +3,22 @@
 
 
 # To pass -y to all installs
-choco feature enable --name=allowGlobalConfirmation
-
+choco feature enable --name=allowGlobalConfirmation 
+choco feature enable --name=allowEmptyChecksums
 
 ######################
 # Windows features
 ######################
 
+# Not in Home version
 # Hyper-V
 # Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V –All
-choco install Microsoft-Hyper-V --source windowsfeatures
+# choco install Microsoft-Hyper-V --source windowsfeatures
 
+# Not now
 # Windows Subsystem for Linux
 # Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-choco install Microsoft-Windows-Subsystem-Linux --source windowsfeatures
+# choco install Microsoft-Windows-Subsystem-Linux --source windowsfeatures
 
 
 ######################
@@ -45,7 +47,7 @@ choco install geforce-experience
 ######################
 
 # Notepad
-choco install notepadplusplus.install
+choco install notepadplusplus
 
 # Disk usage
 choco install windirstat
