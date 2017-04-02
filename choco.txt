@@ -25,7 +25,7 @@ choco install Microsoft-Windows-Subsystem-Linux --source windowsfeatures
 
 # you want to pass it to boxstarter...
 choco install boxstarter
-Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Set-WindowsExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
 
 ######################
