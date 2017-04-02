@@ -1,3 +1,7 @@
+# firstly install choco
+# https://chocolatey.org/install
+
+
 # To pass -y to all installs
 choco feature enable --name=allowGlobalConfirmation
 
