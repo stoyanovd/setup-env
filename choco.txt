@@ -101,7 +101,8 @@ choco install exiftoolgui
 # EyeLeo not exists
 
 # [Warning] it is not approved on choco
-choco install meshlab
+# goes GUI and fails because of unavailable msvc2008 stuff
+# choco install meshlab
 
 
 ######################
