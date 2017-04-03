@@ -43,7 +43,11 @@
 
 # firstly install choco
 # https://chocolatey.org/install
+# it is:
+# from cmd with Administrator
+# @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 
+№ ьфлу Утпдшыр иу вуафгде
 # language switching to Ctrl-Shift (my preferences)
 
 
