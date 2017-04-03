@@ -24,6 +24,7 @@
 ## install Chrome
 ## make it default
 ## set Destop as directory to download
+## set 110% as default
 ## log into Chrome/google
 
 # make display working properly
