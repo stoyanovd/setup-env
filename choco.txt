@@ -24,6 +24,7 @@
 ## install Chrome
 ## make it default
 ## set Destop as directory to download
+## log into Chrome/google
 
 # make display working properly
 # maybe GeForce Experience here?
@@ -67,6 +68,8 @@ choco feature enable --name=allowEmptyChecksums
 ######################
 # Explorer settings
 ######################
+
+# choco install rufus
 
 # you want to pass it to boxstarter...
 choco install boxstarter
