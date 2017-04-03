@@ -1,5 +1,48 @@
+# Let's start
+
+################################
+# reinstall windows
+
+# choose English GB language and russian keyboard
+
+# choose custom options
+# => format drives
+
+# choose custom options
+# => uncheck all tracking options
+# (try to be more secure)
+
+# choose short name (<=5 letters)
+# long will be shorten by windows
+# let's start with good password from the beginning
+
+################################
+# windows options
+
+# proxy
+
+## install Chrome
+## make it default
+## set Destop as directory to download
+
+# make display working properly
+# maybe GeForce Experience here?
+# or, else manually search for drivers on nvidia
+
+# set Windows taskbar properly (Explorer, Settings, Chrome...)
+
+# possibly, uninstall some preinstalled not needed stuff
+# (Windows games...)
+
+# make touchpad work correctly
+# Synaptics?
+
+################################
+
 # firstly install choco
 # https://chocolatey.org/install
+
+# language switching to Ctrl-Shift (my preferences)
 
 
 # To pass -y to all installs
@@ -27,7 +70,8 @@ choco feature enable --name=allowEmptyChecksums
 
 # you want to pass it to boxstarter...
 choco install boxstarter
-Set-WindowsExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+# inside boxstarter
+# Set-WindowsExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
 
 ######################
@@ -224,3 +268,10 @@ choco install freedownloadmanager
 # Sth for VPN, amybe OpenVPN, if you use it
 # (currently I'm use NordVPN)
 
+
+
+######################
+# Log in
+######################
+
+# create ssh keys for github and bitbucket
