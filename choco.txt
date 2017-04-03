@@ -7,6 +7,11 @@
 
 # choose custom options
 # => format drives
+# leave a bit for MSR partition 
+# (currently didn't make it manually - Windows get 16 MB but itself)
+# Maybe next time I will set larger
+# https://en.wikipedia.org/wiki/Microsoft_Reserved_Partition
+
 
 # choose custom options
 # => uncheck all tracking options
