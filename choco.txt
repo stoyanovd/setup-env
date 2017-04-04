@@ -41,6 +41,9 @@
 # maybe GeForce Experience here?
 # or, else manually search for drivers on nvidia
 
+# don't Sleep (or hibernate) after idle time
+# !!!
+
 # set Windows taskbar properly (Explorer, Settings, Chrome...)
 
 # possibly, uninstall some preinstalled not needed stuff
