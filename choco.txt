@@ -29,7 +29,12 @@
 ## install Chrome
 ## make it default
 ## set Destop as directory to download
+# C:\Users\user\AppData\Local\Google\Chrome\User Data\Default\Preferences
+# "download":{"default_directory":"C:\\Users\\user\\Desktop",
+# "savefile":{"default_directory":"C:\\Users\\user\\Desktop"},
 ## set 110% as default
+# {"default_zoom_level":{"14695981039346656037":0.5227586988632231}
+# 110% is 0.5227586988632231
 ## log into Chrome/google
 
 # make display working properly
@@ -290,3 +295,26 @@ choco install freedownloadmanager
 ######################
 
 # create ssh keys for github and bitbucket
+
+
+######################
+# Ubuntu on Windows
+# https://github.com/abergs/ubuntuonwindows
+# install Linux Subsystem from choco
+# turn on Linux Subsystem in Windows features
+# Developer mode -> On
+# bash (netherless admin)
+# it will go installation (and hangs as for me, but it seems after successfull finish)
+# bash turned on to Ubuntu Bash
+# run with admin
+# proxy: modify /etc/apt/apt.conf as in website above (Acquire and so on)
+
+# Bash
+# adduser user
+# usermod -aG sudo user
+# PowerShell
+# lxrun /setdefaultuser user
+
+# Terminal looks ugly from standard cmd
+# Let's go with cmder
+# http://cmder.net/
