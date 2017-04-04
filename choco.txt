@@ -54,6 +54,11 @@
 
 # make English by default
 # language switching to Ctrl-Shift (my preferences)
+# no layout switching (my preferences)
+Set-WinUserLanguageList en-GB,ru-RU -force
+Set-ItemProperty -Path 'HKCU:\Keyboard Layout\Toggle' -Name HotKey -Value 1
+Set-ItemProperty -Path 'HKCU:\Keyboard Layout\Toggle' -Name "Layout Hotkey" -Value 3
+Set-ItemProperty -Path 'HKCU:\Keyboard Layout\Toggle' -Name "Language Hotkey" -Value 2
 
 
 # To pass -y to all installs
