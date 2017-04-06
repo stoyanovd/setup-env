@@ -332,3 +332,7 @@ choco install freedownloadmanager
 # The only way I found to succeed was to run PowerShell->Cmder->Bash
 # (I don't like Bash or PowerShell->Bash because default terminal window is ugly)
 # (But I have no luck with only Cmder->Bash)
+
+# Let's go =D
+# install a lot into Windows Linux Subsystem =) 
+# sudo apt install make build-essential git vim curl wget zsh python-dev python3-dev python-distutils-extra python3-distutils-extra htop apcalc w3m xclip inxi tmux
