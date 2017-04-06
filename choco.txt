@@ -321,3 +321,14 @@ choco install freedownloadmanager
 # Terminal looks ugly from standard cmd
 # Let's go with cmder
 # http://cmder.net/
+
+# I set shortcut at the Desktop to Ctrl-Alt-T
+# to call 'cmder.bat "bash ~"'
+# not default cmder.bat (through choco seems I have no .bat)
+# but my .bat seems nearly the same as official
+
+# To add "Run bash here" I use this:
+# https://www.tenforums.com/tutorials/60125-open-bash-window-here-context-menu-add-windows-10-a.html
+# The only way I found to succeed was to run PowerShell->Cmder->Bash
+# (I don't like Bash or PowerShell->Bash because default terminal window is ugly)
+# (But I have no luck with only Cmder->Bash)
