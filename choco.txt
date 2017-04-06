@@ -336,3 +336,6 @@ choco install freedownloadmanager
 # Let's go =D
 # install a lot into Windows Linux Subsystem =) 
 # sudo apt install make build-essential git vim curl wget zsh python-dev python3-dev python-distutils-extra python3-distutils-extra htop apcalc w3m xclip inxi tmux
+
+# yadm.
+sudo curl -fLo /usr/local/bin/yadm https://github.com/TheLocehiliosan/yadm/raw/master/yadm && sudo chmod a+x /usr/local/bin/yadm
