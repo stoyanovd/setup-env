@@ -296,7 +296,7 @@ choco install freedownloadmanager
 # Sth for VPN, amybe OpenVPN, if you use it
 # (currently I'm use NordVPN)
 
-
+Office app.
 
 ######################
 # Log in
