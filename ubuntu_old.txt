@@ -1,0 +1,161 @@
+# 16.04
+
+set English as primarily  
+set short(!) name (or even "user", at the moment haven't got problems with it)
+
+- Update-upgrade (often)
+- nvidia driver (361 at the moment)
+- chrome (adding apt-key)
+
+- cuda *docker*
+- nvidia-common
+
+Plain text mode:  
+http://ask.xmodulo.com/boot-into-command-line-ubuntu-debian.html
+
+
+```
+sudo vi /etc/default/grub
+
+GRUB_CMDLINE_LINUX += "text"
+GRUB_TERMINAL += "console"
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+```
+
+1.  START  
+      ```sudo apt install build-essential git vim curl cmake cmake-qt-gui wget zsh python-dev python3-dev python-distutils-extra python3-distutils-extra htop calc w3m lynx xclip inxi tmux tree```
+
+2.  OpenCV supply  
+      ```sudo apt install libgtk2.0-dev pkg-config libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev```
+   
+    ffmpeg: libavcodec-dev libavformat-dev libswscale-dev
+    
+    
+    opencv can use ```sudo apt-get install libgtk-3-dev```
+    
+3.  for python... *later*  
+    ```sudo apt-get install libffi-dev libssl-dev  
+    sudo -H pip install 'requests[security]'```
+    
+      // fixing lxml problems and some others
+      ```sudo apt install libxml2-dev libxslt-dev libxslt1-dev  libcurl4-openssl-dev  libcups2-dev libsmbclient-dev  libapt-pkg-dev```
+
+Install / add to oh-my-zsh hub
+Set SSH.
+
+Git
+
+# yadm.
+sudo curl -fLo /usr/local/bin/yadm https://github.com/TheLocehiliosan/yadm/raw/master/yadm && sudo chmod a+x /usr/local/bin/yadm
+
+# git config --global push.default simple
+# git config --global core.excludesfile ~/.gitignore_global
+
+Anaconda
+
+```sudo apt install gedit-plugins```  
+// in gedit Preferences: comment / multiedit / word completion
+
+
+oh-my-zsh (via wget or curl)  
+plugins=(git catimg command-not-found common-aliases compleat history pip python screen sudo z)
+
+
+// finish cuda
+to .zshrc:
+export PATH="/usr/local/cuda/bin:$PATH"
+to /etc/ld.so.conf append:
+include /usr/local/cuda/lib64
+
+
+// add compilers  
+sudo apt-get install gfortran autoconf automake checkinstall  
+// maybe someone else https://help.ubuntu.com/community/InstallingCompilers  
+
+
+cuda tests
+cudnn files to include/ and lib64/ directories.
+
+sudo apt-get install defalut-jdk  
+
+sudo apt-get install slack-desktop skype  
+
+sudo apt-get install kolourpaint4 vlc gparted pidgin  
+
+// JetBrains
+IDEA, PyCharm, RubyMine, CLion
+ignore, Markdown
+HaskForce or sth in IDEA for haskell...
+
+set language swap setting
+
+// Qt
+decided to use Qt5.
+Install through official site.
+PySide - install through sudo apt-get install python3-pyside
+(community said, it will work with Qt5 in such way of installation...)
+add qt to path/ldconfig
+
+reboot (after that: second time Unity can't boot. But reboot one more time and all ok)
+
+
+Use Ceres-Solver cheetsheet of dependencies to set up google libs / atlas.
+http://ceres-solver.org/building.html
+
+already have Eigen3
+
+! download opencv
+my notes:
+( https://www.evernote.com/shard/s479/sh/2d78c224-b478-4056-81f8-009e2a580ebf/22bd7df1d9b7dfa06ad0e5bfd0177063 )
+! download ceres-solver
+
+opencv done.
+ceres-solver done.
+
+////////////////////////////////////////////////////////////////////////////////
+////////////Will not go further at the moment///////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+we want a couple of things to caffe dependencies. They will be later.
+protobuf (protoc && python)
+boost
+boost.python
+
+hdf5, leveldb, snappy, lmdb
+sudo apt-get install libhdf5-dev libleveldb-dev libsnappy-dev liblmdb-dev
+// maybe snappy...
+// python packages (see your binding pip or pip3)
+sudo -H pip install numpy
+sudo -H pip install scipy
+sudo -H pip install pandas, matplotlib, pyplot, yattag, seaborn
+// suggests of Notebook for PyCharm page (semi-official)
+sudo -H pip install Jinja2 "ipython[notebook]" matplotlib numpy pyzmq tornado sympy
+// pylab and pyplot are parts of matplotlib as I understand
+Play with plot.ly . It's very nice. (You need free registration and )
+(  using granted api-key after that.)
+
+doxygen (through apt-get)
+
+Haskell new way!!!
+https://github.com/bitemyapp/learnhaskell/blob/master/install.md
+
+// and Haskell (ghc, cabal and sth else) by
+!!! haskell platform is bad way, as I heard  
+sudo apt-get install haskell-platform
+cabal update
+cabal install cabal-install
+cabal install ghc-mod hoogle hlint pointfree stylish-haskell criterion
+// if forget sth and dependencies become broken -> ghc-pkg unregister. all. and reinstall
+
+caffe
+
+sudo apt-get install postgresql
+
+rvm // download by curl from official site
+sth same: rvm install --ruby --rails // don't remember correct command
+make defalut. check correct $PATH "setupper" (rvm adds command somewhere,
+(you must not override in .zshrc)
+
+// to add later:
+shapely (pip) + GEOS (apt-get : libgeos-dev)
