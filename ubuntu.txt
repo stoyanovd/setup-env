@@ -36,15 +36,10 @@ sudo apt upgrade
 # start pack
 sudo apt install build-essential git vim curl cmake cmake-qt-gui wget zsh python-dev python3-dev python-distutils-extra python3-distutils-extra htop apcalc w3m lynx xclip inxi tmux tree
 
-
 # OpenCV supply  
-sudo apt install libgtk2.0-dev pkg-config libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
-
-# maybe useful
-sudo apt-get install libgtk-3-dev
+sudo apt install libgtk2.0-dev pkg-config libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev libgtk-3-dev
     
-    
-# Python additions stack
+# Python additions stack (I'm no use it at the moment)
 sudo apt-get install libffi-dev libssl-dev  
 sudo -H pip install 'requests[security]'```
     
