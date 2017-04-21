@@ -10,16 +10,20 @@ sudo apt upgrade
 sudo apt update
 sudo apt upgrade
 
-# set nvidia driver (if nouveauis set) in 
+# set nvidia driver (if nouveau is set) in 
 # Settings -> Software and Updates -> Additional drivers
 
 # chrome (just download from official website)
 
 # maybe CUDA is appropriate?
 # You should install it as early as you can
+###################################
+
 
 ###################################
-# If you have problems with Nvidia:
+# Possible problems with Nvidia
+##############
+
 # (nvidia-common can be useful package to get nvidia worked)
 # Plain text mode:  
 # http://ask.xmodulo.com/boot-into-command-line-ubuntu-debian.html
@@ -31,7 +35,10 @@ sudo apt upgrade
 # sudo systemctl set-default multi-user.target
 # sudo systemctl set-default graphical.target
 
+
 ###################################
+# apt packages
+##############
 
 # start pack
 sudo apt install build-essential git vim curl cmake cmake-qt-gui wget zsh python-dev python3-dev python-distutils-extra python3-distutils-extra htop apcalc w3m lynx xclip inxi tmux tree
@@ -46,12 +53,17 @@ sudo -H pip install 'requests[security]'```
 #  fixing lxml problems and some others
 # sudo apt install libxml2-dev libxslt-dev libxslt1-dev  libcurl4-openssl-dev  libcups2-dev libsmbclient-dev  libapt-pkg-dev
 
+###################################
+# oh-my-zsh
+##############
 
-# Install / add to oh-my-zsh hub
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
+###################################
+# Dot files
+##############
 
-# Set SSH.
+# Set SSH in GitHub and BitBucket.
 
 # yadm.
 sudo apt-get install -y software-properties-common
@@ -59,9 +71,16 @@ sudo add-apt-repository -y ppa:flexiondotorg/yadm
 sudo apt-get update
 sudo apt-get -y install yadm
 
+# fix conflict
+rm -f ~/.zshrc
+
+yadm clone git@bitbucket.org:stoyanovd/yadm-files.git
+
 # git settings are already in yadm
 # git config --global push.default simple
 # git config --global core.excludesfile ~/.gitignore_global
+
+###################################
 
 Anaconda
 
