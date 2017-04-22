@@ -63,22 +63,29 @@ sudo -H pip install 'requests[security]'
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 ###################################
-# Dot files
+# ssh
 ##############
 
 # Set SSH in GitHub and BitBucket.
+ssh-keygen -t rsa -b 4096 -C "stoyanovd@mail.ru"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+xclip -sel clip < ~/.ssh/id_rsa.pub
 
-# I use yadm for dotfiles
-
-# fix conflict
-rm -f ~/.zshrc
+###################################
+# Dot files (YADM)
+##############
 
 # export proxy explicitly in console
 
 sudo curl -fLo /usr/local/bin/yadm https://github.com/TheLocehiliosan/yadm/raw/master/yadm && sudo chmod a+x /usr/local/bin/yadm
 
 # yadm config local.class Work
-yadm alt
+
+# --force to rewrite .zshrc
+yadm clone -f git@bitbucket.org:stoyanovd/yadm-files.git
+
+# yadm alt
 
 # export proxy to .zshrc
 
@@ -90,22 +97,32 @@ yadm alt
 # plugins=(git catimg command-not-found common-aliases compleat history pip python screen sudo z)
 
 ###################################
-# 
+# a bit User space
 ##############
 
 # Anaconda (?)
 
 sudo apt install kolourpaint4 vlc gparted  
+sudo apt install postgresql doxygen
 
-sudo apt-get install postgresql doxygen
-
-# JetBrains through toolbox
-# https://www.jetbrains.com/toolbox/app/
-# IDEA, PyCharm, RubyMine, CLion
-# ignore, Markdown
+mkdir ~/setups
+mkdir ~/work
 
 # set language swap setting
 
+###################################
+# JetBrains through toolbox
+##############
+
+cd ~/setups
+wget "https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.2.2314.tar.gz"
+tar -xvzf ./$(ls . G jetbrains-toolbox)
+cd ./$(ls . G jetbrains-toolbox)
+./jetbrains-toolbox
+
+# https://www.jetbrains.com/toolbox/app/
+# IDEA, PyCharm, CLion
+# ignore, Markdown
 
 #######################################
 # Docker
@@ -123,3 +140,4 @@ sudo apt-get install postgresql doxygen
 
 # eigen
 
+# MVE ?
