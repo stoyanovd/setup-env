@@ -186,6 +186,10 @@ exiftoolgui
 # For EyeLeo - 2010
 choco install vcredist2010
 
+# Currently didn't test it
+# choco install dotnet4.5
+# version 3.5 includes 2.0
+# choco install dotnet3.5
 
 # MinGW
 choco install mingw
