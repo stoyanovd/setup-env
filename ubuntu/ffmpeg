@@ -1,0 +1,3 @@
+sudo apt install libavcodec-dev libavdevice-dev libavfilter-dev libavformat-dev libavutil-dev libswscale-dev libswresample-dev 
+
+## libavdevice-ffmpeg56 libavresample-dev libpostproc-dev
