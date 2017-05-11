@@ -104,7 +104,7 @@ yadm clone -f git@bitbucket.org:stoyanovd/yadm-files.git
 
 # Anaconda (?)
 
-sudo apt install kolourpaint4 gimp inkscape vlc gparted postgresql doxygen graphviz  
+sudo apt install kolourpaint4 gimp inkscape vlc gparted postgresql doxygen graphviz tor  
 
 # old in repos:
 # geogebra filezilla  
