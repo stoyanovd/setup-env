@@ -107,9 +107,10 @@ yadm clone -f git@bitbucket.org:stoyanovd/yadm-files.git
 sudo apt install kolourpaint4 gimp inkscape vlc gparted postgresql doxygen graphviz tor  
 
 ###
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo add-apt-repository ppa:slgobinath/safeeyes
 sudo apt update
-sudo apt install safeeyes
+sudo apt install sublime-text-installer safeeyes
 safeeyes
 ###
 
