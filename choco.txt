@@ -99,7 +99,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 choco install rufus
 
-choco install qdir
+choco install qdir stexbar
 
 # you want to pass it to boxstarter...
 choco install boxstarter
