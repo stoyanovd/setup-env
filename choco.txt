@@ -139,7 +139,8 @@ winrar,
 7zip,
 speccy,
 processhacker,
-dependencywalker
+dependencywalker,
+sublimetext3
 
 # no WindowsPathEditor in choco
 
