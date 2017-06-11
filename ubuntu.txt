@@ -41,7 +41,7 @@ sudo apt upgrade
 ##############
 
 # start pack
-sudo apt install build-essential git vim curl cmake cmake-qt-gui wget zsh python-dev python3-dev python-distutils-extra python3-distutils-extra htop apcalc w3m lynx xclip inxi tmux tree screen xtightvncviewer unrar traceroute
+sudo apt install build-essential git vim curl cmake cmake-qt-gui wget zsh python-dev python3-dev python-pip python3-pip python-distutils-extra python3-distutils-extra htop apcalc w3m lynx xclip inxi tmux tree screen xtightvncviewer unrar traceroute
 
 # more compiler tools
 sudo apt install gfortran autoconf automake checkinstall openjdk-8-jdk yasm
