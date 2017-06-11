@@ -109,6 +109,10 @@ yadm clone -f git@bitbucket.org:stoyanovd/yadm-files.git
 
 sudo apt install kolourpaint4 gimp inkscape vlc gparted postgresql doxygen graphviz tor  
 
+# make user in postgresql
+sudo -u postgres createuser -s dima
+
+
 ###
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo add-apt-repository ppa:slgobinath/safeeyes
