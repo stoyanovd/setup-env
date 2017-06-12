@@ -51,7 +51,8 @@ sudo apt install nvidia-settings
 sudo -H pip install --upgrade pip virtualenv
 sudo -H pip3 install --upgrade pip virtualenv
 
-# I didn't like pyenv, so will install python 3.6.1 from jonathan ppa
+# Let's go with pyenv for fresh python release
+# https://askubuntu.com/questions/865554/how-do-i-install-python-3-6-using-apt-get
 
 # OpenCV supply  
 sudo apt install libgtk2.0-dev pkg-config libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev libgtk-3-dev
