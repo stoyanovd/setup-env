@@ -120,6 +120,9 @@ sudo apt install kolourpaint4 gimp inkscape vlc gparted postgresql doxygen graph
 sudo -u postgres createuser -s dima
 sudo -u postgres createdb dima
 
+# possibly need to psql
+# possibly no
+# sudo apt install libpq-dev postgresql postgresql-contrib
 
 ###
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
