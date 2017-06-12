@@ -118,6 +118,7 @@ sudo apt install kolourpaint4 gimp inkscape vlc gparted postgresql doxygen graph
 
 # make user in postgresql
 sudo -u postgres createuser -s dima
+sudo -u postgres createdb dima
 
 
 ###
