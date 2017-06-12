@@ -62,6 +62,10 @@ sudo -H pip install 'requests[security]'
 # sudo apt install libxml2-dev libxslt-dev libxslt1-dev  libcurl4-openssl-dev  libcups2-dev libsmbclient-dev  libapt-pkg-dev
 
 ###################################
+
+Allow different layouts for individual windows
+
+###################################
 # oh-my-zsh
 ##############
 
