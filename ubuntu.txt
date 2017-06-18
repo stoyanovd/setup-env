@@ -65,8 +65,17 @@ sudo -H pip install 'requests[security]'
 # sudo apt install libxml2-dev libxslt-dev libxslt1-dev  libcurl4-openssl-dev  libcups2-dev libsmbclient-dev  libapt-pkg-dev
 
 ###################################
+# User-space OS settings
+##############
 
-Allow different layouts for individual windows
+Keyboard -> Text Entry:
+   - Allow different layouts for individual windows
+Keyboard -> Shortcuts -> System
+   - no "Lock screen" shortcut
+Battery:
+   - no Suspend on Lid close
+Brightness & Lock
+   - Lock (or not lock)
 
 ###################################
 # oh-my-zsh
