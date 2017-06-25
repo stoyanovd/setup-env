@@ -167,6 +167,9 @@ choco install far
 # Specific tools
 ######################
 
+# we can try that:
+Get-PackageProvider -name chocolatey
+
 choco install meld,
 exiftoolgui
 
