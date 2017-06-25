@@ -3,7 +3,8 @@
 ################################
 # reinstall windows
 
-# choose English GB language and russian keyboard
+# choose English US language and russian keyboard
+# (GB English has another keyboard!)
 
 # choose custom options
 # => format drives
@@ -42,7 +43,10 @@
 # or, else manually search for drivers on nvidia
 
 # don't Sleep (or hibernate) after idle time
+# here: Control Panel\Hardware and Sound\Power Options\System Settings
+# and here: Control Panel\Hardware and Sound\Power Options\Edit Plan Settings
 # !!!
+# and not Fast start-up (can't mount drives on Ubuntu after it)
 
 # set Windows taskbar properly (Explorer, Settings, Chrome...)
 
@@ -306,8 +310,11 @@ As for me: No Reverse Scrolling
 # Download manager
 choco install freedownloadmanager
 
-# Sth for VPN, amybe OpenVPN, if you use it
+# Sth for VPN, maybe OpenVPN, if you use it
+# https://openvpn.net/index.php/open-source/downloads.html
 # (currently I'm use NordVPN)
+# https://nordvpn.com/download/
+
 
 Office app.
 
