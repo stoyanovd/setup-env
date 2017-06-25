@@ -300,7 +300,7 @@ choco install avastfreeantivirus
 # Task manager -> Start-up
 edit a bit
 
-Settings -> MDevices -> Mouse -> Additional -> Properties -> Scrolling -> Two-Finger Scrolling
+Settings -> MDevices -> Mouse -> Additional -> Properties -> Scrolling -> {Enable Reverse; Two-Finger Scrolling}
 # Download manager
 choco install freedownloadmanager
 
