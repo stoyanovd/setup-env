@@ -118,6 +118,19 @@ yadm clone -f git@bitbucket.org:stoyanovd/yadm-files.git
 # plugins=(git catimg command-not-found common-aliases compleat history pip python screen sudo z)
 
 ###################################
+# VPN
+##############
+
+# get fresh openvpn builds:
+# https://community.openvpn.net/openvpn/wiki/OpenvpnSoftwareRepos
+sudo wget -O - https://swupdate.openvpn.net/repos/repo-public.gpg|sudo apt-key add -
+sudo echo "deb http://build.openvpn.net/debian/openvpn/stable xenial main" > /etc/apt/sources.list.d/openvpn-aptrepo.list
+sudo apt-get update && sudo apt-get install openvpn
+
+# NordVPN
+# https://nordvpn.com/tutorials/linux/openvpn/
+
+###################################
 # a bit User space
 ##############
 
