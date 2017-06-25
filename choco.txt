@@ -297,6 +297,9 @@ choco install avastfreeantivirus
 # User space
 ######################
 
+# Task manager -> Start-up
+edit a bit
+
 # Download manager
 choco install freedownloadmanager
 
