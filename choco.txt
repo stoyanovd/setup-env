@@ -314,7 +314,7 @@ choco install freedownloadmanager
 # https://openvpn.net/index.php/open-source/downloads.html
 # (currently I'm use NordVPN)
 # https://nordvpn.com/download/
-
+# and set some GUI settings in it 
 
 Office app.
 
