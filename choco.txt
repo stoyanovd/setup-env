@@ -22,6 +22,13 @@
 # long will be shorten by windows
 # let's start with good password from the beginning
 
+
+## maybe yow want to test boxstarter full install
+## don't forget to make Win starts by default in Dual-Boot
+## sudo gedit /boot/grub/menu.lst
+## from here:
+## https://www.howtogeek.com/howto/ubuntu/set-windows-as-default-os-when-dual-booting-ubuntu/
+
 ################################
 # windows options
 
