@@ -77,6 +77,10 @@ Battery:
 Brightness & Lock
    - Lock (or not lock)
 
+Synaptics
+xinput list
+xinput set-prop "name/id" "Synaptics Finger" 55 55 255
+
 ###################################
 # oh-my-zsh
 ##############
