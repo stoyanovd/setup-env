@@ -126,6 +126,36 @@ yadm clone -f git@bitbucket.org:stoyanovd/yadm-files.git
 # plugins=(git catimg command-not-found common-aliases compleat history pip python screen sudo z)
 
 ###################################
+# pyenv
+##############
+
+# dependencies
+sudo apt-get install -y build-essential libbz2-dev libssl-dev libreadline-dev \
+                        libsqlite3-dev tk-dev
+# optional scientific package headers (for Numpy, Matplotlib, SciPy, etc.)
+sudo apt-get install -y libpng-dev libfreetype6-dev   
+
+
+curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
+
+# Don't forget to modify .zshrc (as in script ouptut):
+export PATH="~/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+# restart shell
+
+pyenv install 3.6.0
+pyenv virtualenv 3.6.0 general
+pyenv global general
+
+# go to dir
+pyenv local other_proj
+# restart shell
+# go to dir
+pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
+
+###################################
 # VPN
 ##############
 
