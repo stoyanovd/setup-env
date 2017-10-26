@@ -162,6 +162,16 @@ pyenv local other_proj
 # go to dir
 pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
 
+
+### 
+# Don't forget to activate pyenv plugin for oh-my-zsh:
+# go to ~/.zshrc, and add pyenv to your plugins
+# i.e. if you have such string
+#    plugins=(git history pip python sudo z)
+# change to this:
+#    plugins=(git history pip python sudo z pyenv)
+
+
 ###################################
 # VPN
 ##############
