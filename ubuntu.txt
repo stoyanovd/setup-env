@@ -154,6 +154,7 @@ pyenv global general
 
 #######
 # if you want "local" python per-project (it's more accurate way), do this. Let's call local env "other_proj":
+pyenv virtualenv 3.6.0 local_proj
 # go to dir
 pyenv local other_proj
 # restart shell
