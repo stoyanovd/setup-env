@@ -241,6 +241,14 @@ cd ./$(ls . G jetbrains-toolbox)
 # Docker
 # https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04
 
+# Vagrant is very easy to use.
+# Download from there (it's more modern than in official repos):
+# https://www.vagrantup.com/downloads.html
+
+# next you make dir for vagrant project and inside it
+# either `vagrant init` to get default or
+# copy Vagrantfile from (e.g.) here https://gist.github.com/turtlemonvh/2f40fa7ca0acaaabaf6a6ecb0ee556c7
+
 #######################################
 
 ### Stop at the moment
