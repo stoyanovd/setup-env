@@ -180,6 +180,14 @@ pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
 
 
 ###################################
+# Modern g++
+##############
+
+# it seems ok, to make symbolic link in g++ to g++-7 (even without touch gcc)
+# I don't remember how exaxtly I did this, but sth with this repository:
+# ppa:jonathonf/gcc-7.1 (nearly automatic install)
+
+###################################
 # VPN
 ##############
 
