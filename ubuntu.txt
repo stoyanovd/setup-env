@@ -249,6 +249,10 @@ cd ./$(ls . G jetbrains-toolbox)
 # either `vagrant init` to get default or
 # copy Vagrantfile from (e.g.) here https://gist.github.com/turtlemonvh/2f40fa7ca0acaaabaf6a6ecb0ee556c7
 
+# there is "vagrant share" tool, you need ngrok for it (for vagrant 2.0+)
+# it can be downloaded from official site, and added to path
+
+
 #######################################
 
 ### Stop at the moment
