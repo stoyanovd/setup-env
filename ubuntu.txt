@@ -149,7 +149,7 @@ curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-
 pyenv install 3.6.0
 
 #######
-# if you want some "global" python (let's call this env "general") do this:
+# 1. you want some "global" python (let's call this env "general"):
 pyenv virtualenv 3.6.0 general
 pyenv global general
 
@@ -162,6 +162,13 @@ pyenv local other_proj
 # go to dir
 pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
 
+
+###
+# useful tool, though I didn't check what algo it uses
+# # install pip-autoremove
+# pip install pip-autoremove
+# # remove "somepackage" plus its dependencies:
+# pip-autoremove somepackage -y
 
 ### 
 # Don't forget to activate pyenv plugin for oh-my-zsh:
