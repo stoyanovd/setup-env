@@ -257,9 +257,13 @@ choco install miniconda3
 # Virtualization
 ######################
 
+# 1. VirtualBox
 
-# We have Hyper-V. So, as I understand we don't need VirtualBox.
+command to turn off Hyper-V, because VirtualBox can't be installed along with Hyper-V
+Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All
 # choco install virtualbox
+
+# or 2. Docker via Hyper-V
 
 choco install docker
 choco install docker-machine
