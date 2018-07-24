@@ -8,7 +8,7 @@ Important points:
 
 Download and install free version of MS SQL Server  
 https://www.microsoft.com/en-us/sql-server/sql-server-downloads  
-SQLServer2017-SSEI-Dev.exe
+Developer edition, i.e. result file is `SQLServer2017-SSEI-Dev.exe`
 
 // you can check running server with `sqlcmd`
 
@@ -16,7 +16,7 @@ SQLServer2017-SSEI-Dev.exe
 ### 2. Install features
 
 run Installation Center, "new SQL server installation", pick  
-C:\SQLServer2017Media\Developer_ENU  
+`C:\SQLServer2017Media\Developer_ENU`  
 as Media Folder  
 Now, you can pick Features: SSIS, SSAS (analytical services)  
 
