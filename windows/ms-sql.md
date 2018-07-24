@@ -31,3 +31,8 @@ link: https://www.microsoft.com/ru-ru/download/confirmation.aspx?id=55252
 
 Download and install studio  
 https://docs.microsoft.com/ru-ru/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017
+
+
+### 5. Run SSMS
+
+You need run as Administrator to connect to IS
