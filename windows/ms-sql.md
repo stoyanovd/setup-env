@@ -36,3 +36,13 @@ https://docs.microsoft.com/ru-ru/sql/ssms/download-sql-server-management-studio-
 ### 5. Run SSMS
 
 You need run as Administrator to connect to IS
+
+
+
+# Iteration II
+
+### 1. Postgresql
+
+We need ODBC driver for postgresql. Let's install the whole postgres.
+
+
