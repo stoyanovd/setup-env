@@ -46,11 +46,14 @@ You need run as Administrator to connect to IS
 We need ODBC driver for postgresql. Let's install the whole postgres.
 Check installation of both x32 and x64 drivers.
 
+### 2. DSN
+
 Set up DSN for your remote postgres database with ODBC Data Source Administrator.
+currently take x64 and UNICODE.
 
 ### - trying SQL Server Import and Export Wizard, but it was a mistake =)
 (and you don't need to wotk with ProviderDescriptors.xml)
 
-### 2. Data Sources in SSIS
+### 3. Data Sources in SSIS
 
 SSIS have connections to ODBC too, it is hide in "Other Sources" menu
