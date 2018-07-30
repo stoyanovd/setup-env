@@ -81,4 +81,6 @@ I find max size of strings in appropriate column and set 1.5x to DT_WSTR size.
 https://dba.stackexchange.com/questions/102830/avoiding-row-by-row-fetch-method-when-dealing-with-source-lob-columns
 remove DT_NEXT where you don't need it
 
-
+4. Possibly useful docs
+- http://www.sqlines.com/sql-server-to-postgresql
+- https://wiki.postgresql.org/wiki/Microsoft_SQL_Server_to_PostgreSQL_Migration_by_Ian_Harding
