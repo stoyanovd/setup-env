@@ -46,4 +46,6 @@ You need run as Administrator to connect to IS
 We need ODBC driver for postgresql. Let's install the whole postgres.
 Check installation of both x32 and x64 drivers.
 
+Set up DSN with ODBC Data Source Administrator.
+
 
