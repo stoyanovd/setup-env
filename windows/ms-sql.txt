@@ -57,3 +57,22 @@ currently take x64 and UNICODE.
 ### 3. Data Sources in SSIS
 
 SSIS have connections to ODBC too, it is hide in "Other Sources" menu
+
+....
+....
+
+Problems
+
+### Unicode vs ANSI
+1. go to Advanced edit, fix Output datatypes
+2. create recipient table with appropriate unicode type
+
+### Truncation
+make right length to sender and to recipient
+I find max size of strings in appropriate column and set 1.5x to DT_WSTR size. 
+
+### Row by Row because of LOB
+https://dba.stackexchange.com/questions/102830/avoiding-row-by-row-fetch-method-when-dealing-with-source-lob-columns
+remove DT_NEXT where you don't need it
+
+
