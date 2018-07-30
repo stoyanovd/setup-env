@@ -61,7 +61,13 @@ SSIS have connections to ODBC too, it is hide in "Other Sources" menu
 ....
 ....
 
-Problems
+# Convert PostgreSQL to MS SQL Server
+
+1. http://www.sqlines.com/online
+
+2. Currently comment all complex things, such as nextval(regclass)
+
+3. Problems:
 
 ### Unicode vs ANSI
 1. go to Advanced edit, fix Output datatypes
