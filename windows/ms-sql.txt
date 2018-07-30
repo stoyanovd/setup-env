@@ -1,4 +1,4 @@
-Task to install MS SQL Serever, SSIS (Integration Service), SSMS (Studio) and so on
+Task to install MS SQL Server, SSIS (Integration Service), SSMS (Studio) and so on
 
 Important points:
 - install things in right order
