@@ -1,0 +1,16 @@
+0. PowerDesigner is installed.
+
+0,5. PowerDesigner Repository is initialized:
+there is some wizard, that create database, there all PD info is stored.
+In my case it is MS SQL Server database.
+
+
+-- Connection to repo
+
+1. Create user (!) ODBC connect (x32 is ok) to MS SQL Server (in my case) PowerDesigner database
+I have some problems with 'system' connection.
+
+2. Login with ADMIN user, after that create new user in Repo section (you will be prompt for new password after relogin)
+
+3. In Repo->Admininstration->Groups double click leads to menu, there you can add your new user to Admin group.
+
