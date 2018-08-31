@@ -14,3 +14,18 @@ I have some problems with 'system' connection.
 
 3. In Repo->Admininstration->Groups double click leads to menu, there you can add your new user to Admin group.
 
+
+-- Java
+In case you have problems with 'Could not initialize JavaVM'
+set up java (jre),
+and set up System env, according to this url
+http://sybase.public.powerdesigner.general.narkive.com/xsK2vFdO/error-could-not-initialize-javavm
+
+copy of message from this url:
+
+Solution: It appears that PowerDesigner requires 32bit JRE!!!
+1) In menu Tools > General Options > Variables set variable JAVA to location of your java.exe (e.g. c:\java\jre6\bin\java.exe)
+2) Add path to file jvm.dll to you PATH system variable (e.g. c:\java
+\jre6\bin\client)
+3) Create system variable CLASSPATH (if not exists) and add JDBC driver
+for your database with full path into it (e.g. c:\drivers\jdbc\ojdbc14.jar)
